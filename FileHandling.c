@@ -27,7 +27,7 @@ int main()
       fp2=fopen("aravindnew2.txt","w");
       while((ch = fgetc(fp) )!= EOF ){
       fputc(ch,fp2);
-      }printf("\n***Contect Copied from \(fp to fp2)\ Successfully***\n");
+      }printf("\n***Contect Copied from FILE fp to FILE fp2 Successfully***\n");
       fclose(fp);
       fclose(fp2);
 }
@@ -37,5 +37,5 @@ Aravind Dupati B.tech Student'
 
 'tnedutS hcet.B itapuD dnivarA        
 
-***Contect Copied from (fp to fp2) Successfully***
+***Contect Copied from FILE fp to FILE fp2 Successfully***
 */
